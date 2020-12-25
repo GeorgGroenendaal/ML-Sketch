@@ -1,9 +1,9 @@
 from typing import List, Tuple
 import numpy as np
 
-def create_window(input_data: List, step_size: int) -> np.array:
+def create_window(input_data: np.array, step_size: int) -> np.array:
     data_len = len(input_data)
-    result = np.zeros((data_len-step_size+1, step_size))
+    result = np.zeros((data_len-step_size+1, step_size, *input_data.shape[1:]))
     for i in range(data_len):
         if i+step_size <= data_len:
             result[i] = input_data[i:i+step_size]
