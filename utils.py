@@ -22,9 +22,10 @@ def create_window_on_multiple_samples(input_data: np.array, window_size: int) ->
         windowed_data.append(create_window(sample, window_size))
 
         if i % 10000 == 0:
-            clear_output(wait=True)
             print(f"Now at {i}")
-
+            clear_output(wait=True)
+    result = np.concatenate(windowed_data)
+    print(f"Done processing {i} samples, total of {result.shape[0]} windows and {result.shape[0] * result.shape[1]} datapoints")
     return np.concatenate(windowed_data)
 
 
