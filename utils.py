@@ -29,4 +29,4 @@ def create_window_on_multiple_samples(input_data: np.array, window_size: int) ->
 
 
 def split_train_test(input_data: List) -> Tuple[np.array, np.array]:
-    return input_data[:,0:-1], input_data[:,-1].reshape((input_data.shape[0], 1))
+    return input_data[:,0:-1], input_data[:,-1]
