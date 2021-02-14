@@ -30,5 +30,5 @@ Checkout poetry documentation on: https://python-poetry.org/
 
 ## Link to the models
 In this repository we have added the smaller models to test, however the larger models are uploaded to a google drive since the file is too large to be put on github. The link to all the random forest models is  here - https://drive.google.com/drive/folders/1yq6sXaYbL57noe6vibt3_U4DmV72bHPh?usp=sharing
-- Unzip the files to the models/ directory and test them using the "Random_Forest Testing all models" notebook.
+- Unzip the files to the 'models/\ directory and test them using the 'Random_Forest Testing all models' notebook.
  
