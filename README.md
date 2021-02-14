@@ -28,6 +28,14 @@ Alternative:
 
 Checkout poetry documentation on: https://python-poetry.org/
 
+## Steps to run the model
+- Ensure to have the 'cloud.npz' dataset
+- Ensure to have the dependencies installed using poetry as mentioned above
+    1) Linear regression: Run the notebook entitled "LinearRegression.ipynb".
+    2) Random forest regression: <br />
+     - To train a model from scratch and test it, run the "Random_Forest Training and Testing.ipynb" notebook <br />
+     - To load all existing trained models and to test them, run the "Random_Forest Testing all models.ipynb" notebook. (Check the link below to download all models of random forest)
+
 ## Link to the models
 In this repository we have added the smaller models to test, however the larger models are uploaded to a google drive since the file is too large to be put on github. The link to all the random forest models is  here - https://drive.google.com/drive/folders/1yq6sXaYbL57noe6vibt3_U4DmV72bHPh?usp=sharing
 - Unzip the files to the 'models/\ directory and test them using the 'Random_Forest Testing all models' notebook.
