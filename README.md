@@ -4,7 +4,7 @@ A project to learn a machine to draw with `Google Quick, Draw` Dataset.
 
 ## Setup and development
 
-Install `poetry`, and `python 3.7+`. Then from the root directory run. (Poetry is a dependency/environment manager similar to pipenv). It helps you to keep the project python seperate from the rest of your the system.
+Install `poetry`, and `python 3.7+` for best experience. Then from the root directory run. (Poetry is a dependency/environment manager similar to pipenv). It helps you to keep the project python seperate from the rest of your the system, and helps you to install all requirements with ease. It also eliminates the problem of users running different versions.
 
     poetry install
 
